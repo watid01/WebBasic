@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+html,body {
+
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Inter', sans-serif;
+
+}
+/*-----------------------------------------start header--------------------------------------*/
+header{
+  background-color: #CE813A;
+  justify-content: space-between;
+
+}
+nav{
+  color: #FFFFFF;
+  display: flex; /*ทำให้อยู่บรรทัดเดียวกัน*/
+  width: 1100px;
+  height: 48;
+  /*background-color: #F56235;*/
+  align-items: center; /*ทำให้อักษรมาอยู่ตรงกลาง*/
+  justify-content: space-between;
+  margin: auto;
+}
+/* ชื่อคลาสใส่ .*/
+.logo{
+ text-transform: uppercase; /*เพิ่มขนาดอักษร*/
+ font-size: 24px;
+}
+.menu{
+ display: flex;
+}
+li{
+    list-style: none;/*ลบจุดหน้าอักษร*/
+    margin-right: 20px;
+
+}
+a{
+ color: #FFFFFF; /*สีอักษร*/
+ text-decoration: none; /*ลบเล่นใต้*/
+}
+/*------------------------------------------Start_Section_Hero------------------------------------*/
+.hero{
+ /*background-color: aqua;*/
+ margin: auto;
+ width: 1100px;
+ display: flex;
+ align-items: center; 
+ justify-content: space-between;
+}
+.hero-text-box{
+    color: #FFFFFF;
+}
+.hero-button{
+    display: flex;
+    
+
+}
+.hero-button-getStarted{
+ background-color: #C6650B;
+ padding: 8px 20px; /*บนล่าง 8 ซ้ายขวา 20*/
+ border-radius: 30px;/*การทำให้ปุ่มโค้ง*/
+ margin-right: 20px;
+
+}
+.hero-button-watch{
+ display: flex;
+ align-items: center;
+}
+.hero-image{
+
+}
+
