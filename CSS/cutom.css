@@ -1,0 +1,14 @@
+.button {
+    background-color: #22a585;
+    border-radius: 30px;
+    padding: 8px 24px;
+    display: inline-block;
+    color: rgb(237, 232, 232);
+  }
+  .text-upppercase {
+    text-transform: uppercase;
+    color: rgb(37, 91, 205);
+  }
+input{
+  margin-top: 4px;
+}
