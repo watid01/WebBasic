@@ -1,0 +1,168 @@
+body{
+    /*---ไม่ให้มีขอบ---*/
+    padding: 0;      
+    margin: 0;
+    box-sizing: border-box;
+   /* ----------------Header----------------*/
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(34, 9, 125);
+}
+nav {
+    display: flex;   
+    justify-content: space-between;
+    width: 85%;
+   
+    margin: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(245, 243, 241);
+
+}
+nav ul li {
+    margin-right: 1.85rem;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgb(246, 237, 237);
+}
+.logo image {
+    margin-right: 0.5rem;
+
+}
+/*------------------------------------responsive Navbar----------------------------------------------*/
+@media screen  and (max-width:480px) {  
+    nav {
+       flex-direction: column;
+       align-items: center;
+    }
+    nav ul{
+        flex-direction: column;       
+        text-align: center;
+    }
+}
+
+
+/*----------------------mypet-content------------------*/
+.mypet-content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.box {
+  margin: 30px 10px;
+  border-radius: 10px; /*--มุมโค้ง--*/
+  box-shadow:  0px 0px 3px 0.5px rgb(58, 141, 193);
+} 
+.images{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+   
+}
+.text-contecnt {
+    padding: 15px;
+}
+.boxs{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: rgb(44, 40, 40);
+    
+    height: 250pX;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .icon{
+      background-color: rgb(233, 232, 234);
+      border-radius: 100%;
+      height: 100px;
+      width: 100px;
+      margin: auto;
+  }
+/*------------------------------------responsive MyPet----------------------------------------------*/
+@media only screen and (max-width: 768px) {
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen  and (max-width:768px) {  
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+}
+@media screen  and (max-width:480px) {  
+    .mypet-content {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+}
+/*--------------------Hero section-----------------------*/
+.hero{
+    background-repeat: no-repeat;
+    background-image: url('https://www.dogthailand.net/data/attachment/forum/month_1505/1505071514afd11c7e77358b2b.jpg');
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.text-hero {
+    margin: 0;
+    color: rgba(23, 3, 3, 0.817);
+    font-size: 60px;
+    text-align: center;
+}
+.edit {
+ background-color: aqua;
+ display: grid;
+ 
+}
+.fa{
+    border-radius: 100%;
+    background-color: rgb(11, 15, 19);
+    width: 100px;
+    height: 100px;
+    
+}
+.li{
+    border-radius: 100%;
+    background-color: rgb(11, 15, 19);
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.in{
+    border-radius: 100%;
+    background-color: rgb(11, 15, 19);
+    width: 100px;
+    height: 100px;
+}
+.tt{
+    border-radius: 100%;
+    background-color: rgb(11, 15, 19);
+    width: 100px;
+    height: 100px;
+}
+
+
+/*---------------Footer-----------------------*/
+footer{
+    background-color: #2d17b8;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+}

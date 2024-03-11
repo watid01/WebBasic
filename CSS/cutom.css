@@ -12,3 +12,9 @@
 input{
   margin-top: 4px;
 }
+.bg-nav {
+  background-color: cadetblue;
+}
+.connor {
+  border-radius: 20px 20px 20px 20px;
+}
