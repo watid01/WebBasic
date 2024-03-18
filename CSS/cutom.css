@@ -13,8 +13,32 @@ input{
   margin-top: 4px;
 }
 .bg-nav {
-  background-color: cadetblue;
+  background-color: rgb(48, 40, 163);
 }
 .connor {
   border-radius: 20px 20px 20px 20px;
 }
+.my-circle{
+  background-color: rgb(246, 246, 246);
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  padding: 10px;
+  margin: auto;
+  
+}
+/*----Start Section Member--------*/
+.member{
+  background-color:#CE813A ;
+  padding: 50px 0px;
+ }
+ .member-box{
+   width: 1100px;
+   margin: auto;
+   background-color: #FFFAFA;
+   padding: 1px 40px 50px;
+   box-shadow: 0px 0px 5px 0.5px color#221e1e;
+   border-radius: 5px;
+ }
+
+  
